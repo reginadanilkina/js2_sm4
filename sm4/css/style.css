@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.cont {
+    padding-top: 20px;
+    width: 600px;
+    margin: auto;
+}
+.accordion-header {
+    border: 1px #111111 solid;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between
+}
+.tab {
+    padding: 15px;
+    border: 1px #111111 solid;
+    display: none;
+}
+.tab_active {
+    display: block;
+}
+
+.header-button {
+    background: none;
+    padding: 15px;
+    border-radius: 0;
+    border: 1px #111111 solid;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+}
+.header-button_active {
+    background: #F4AAB6;
+    color: #ffffff;
+}
